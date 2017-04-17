@@ -1,0 +1,48 @@
+############
+## Project
+############
+
+bundles/
+node_modules/
+coverage/
+
+*.map
+*.d.ts
+*.metadata.json
+*.js
+# overrides for js
+!karma.conf.js
+!protractor.conf.js
+!webpack.config.js
+
+#################
+## Misc
+#################
+
+nbproject
+manifest.mf
+build.xml
+npm-debug.log
+
+#################
+## IDEs
+#################
+
+.idea
+.project
+.settings
+.vscode
+
+############
+## Windows
+############
+
+Thumbs.db
+Desktop.ini
+
+############
+## Mac
+############
+
+.DS_Store
+

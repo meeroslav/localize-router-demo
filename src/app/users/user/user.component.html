@@ -1,0 +1,8 @@
+<nav>
+  <a [routerLink]="['../']">{{'BACK' | translate}}</a>
+  <a [routerLink]="['profile']">{{'PROFILE' | translate}}</a>
+</nav>
+<h2>{{'USER_TEXT' | translate}}</h2>
+<p>
+  {{user | async}}
+</p>

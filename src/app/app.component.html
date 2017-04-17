@@ -1,0 +1,17 @@
+<header>
+  <h1>{{ 'APP_TITLE' | translate }}</h1>
+
+  <span class="button-bar">
+    <button type="button" (click)="changeLanguage('en')">translate to EN</button>
+    <button type="button" (click)="changeLanguage('de')">translate to DE</button>
+  </span>
+</header>
+<nav>
+  <a [routerLink]="'/'" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">
+    {{'HOME' | translate}}
+  </a>
+  <a [routerLink]="'/users'" [routerLinkActive]="['router-link-active']">
+    {{'USERS' | translate}}
+  </a>
+</nav>
+<router-outlet></router-outlet>

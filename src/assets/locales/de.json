@@ -1,0 +1,13 @@
+{
+  "APP_TITLE": "Angular Meetup",
+  "HOME": "Startseite >",
+  "USERS": "Benutzer >",
+  "PROFILE": "Profil >",
+  "BACK": "< Zurück",
+
+  "HOME_TEXT": "Die Startseite funktioniert",
+  "USERS_TEXT": "Die Benutzer funktioniert",
+  "PROFILE_TEXT": "Das Profil",
+  "USER_TEXT": "Der Benutzer"
+
+}
